@@ -11,8 +11,10 @@ const Contact = () => {
         </p>
         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
           <button className="py-2 px-6 w-48 rounded flex items-center justify-center space-x-2 shadow-md hover:shadow-lg">
-            <span>Submit Profile</span>
-            <HiArrowNarrowRight />
+            <a href="/signup" className=" text-black rounded">
+        Submit Profile
+      </a>
+      <HiArrowNarrowRight />
           </button>
           <button className="py-2 px-6 w-48 rounded flex items-center justify-center space-x-2 shadow-md hover:shadow-lg">
             <span>Work With Us</span>

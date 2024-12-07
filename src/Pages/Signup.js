@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../Images/logo.jpeg'
+import record from '../Images/recording-movie-artist.png'
 const Signup = () => {
   return (
     <div className="flex flex-wrap min-h-screen p-4 bg-red-100">
@@ -10,6 +11,12 @@ const Signup = () => {
       Join our database and explore exciting opportunities by creating your profile here. 
       Stay updated on our latest casting requirements and be part of our creative journey!
     </p>
+    <img 
+  src={record} 
+  alt="record-img" 
+  className="w-full max-w-sm mx-auto mt-6 bg-transparent object-cover"
+/>
+
   </div>
 </div>
       <div className="flex-1 basis-1/3 p-6 bg-white rounded-lg shadow-lg">
